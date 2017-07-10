@@ -1,0 +1,17 @@
+{
+  "name": "vending_machine_assessment",
+  "version": "1.0.0",
+  "description": "Vending machine api",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Robert Hutchins",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "express": "^4.15.3",
+    "mocha": "^3.4.2",
+    "mongoose": "^4.10.8"
+  }
+}
