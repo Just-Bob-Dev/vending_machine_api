@@ -10,8 +10,13 @@
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
     "express": "^4.15.3",
     "mocha": "^3.4.2",
-    "mongoose": "^4.10.8"
+    "mongoose": "^4.10.8",
+    "supertest": "^3.0.0"
+  },
+  "scripts":{
+    "test":"mocha"
   }
 }
