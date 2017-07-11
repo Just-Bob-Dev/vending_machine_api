@@ -6,8 +6,8 @@ const Item = require('./models/item')
 const apiRouter = require('./router/api');
 const bodyParser = require('body-parser');
 // Replace "test" with your database name.
-mongoose.connect('mongodb://localhost:27017/test');
-var db = mongoose.connection;
+// mongoose.connect('mongodb://localhost:27017/test');
+// var db = mongoose.connection;
 
 var app = express();
 
@@ -16,10 +16,10 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 
 // Item.create({
-//   id: 1,
-//   description: "Corn Chips",
-//   cost: 65,
-//   quantity: 4
+//   id: 2,
+//   description: "Gum",
+//   cost: 35,
+//   quantity: 3
 // })
 
 app.use('/api', apiRouter);
